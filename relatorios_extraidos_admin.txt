@@ -1,0 +1,41 @@
+RELATÓRIOS De EXTRAÇÂO DO ADMIN
+
+INVESTIMENTO -> INVESTIMENTO 6 MESES:::
+Renda Fixa - Posição Renda Fixa
+Renda Variavel -Posição Renda Variavel
+NNM - NNM Detalhado (maior que 3 dias)
+
+INVESTIMENTO -> INVESTIMENTO (D-1 e D0):::
+Financeiro - Saldo D(0)
+Posição - Posição
+Base BTG - Base BTG
+Informações - Informações, Dados de Abertura da Conta
+
+INVESTIMENTO -> ASSET ALLOCATION:::
+Visão Gerencial - Detalhado
+
+BANKING -> OPERACIONAL (BANKING):::
+Ofertas e Prdutos - Ofertas e Prdutos Contratados
+Open Banking - Opena Banking
+
+INVESTIMENTO -> HISTÓRICO DE EVENTOS - RENDA FIXA
+Proventos Futuros - Proventos Futuros
+
+INICIO -> ONBOARDING -> TROCA DE ASSESSORIA DIGITAL
+Exportar planilha
+
+INICIO -> RENDA VARIAVEL -> DASHBOARD -> PRODUTOS ESTRUTURADOS -> ACOMPANHAMENTO -> ACOMPANHAMENTO DE CUSTÓDIA
+Baixar Planilha
+
+Depois disso jogar na pasta relatórios pc gabriel e rodar o script renomear_relatórios
+depois de renomear pega os relatórios restantes e joga dentro da pasta do dia e nao da 
+do horário ai roda o script  de migrar dados banco de dados
+
+                        'Posição': 'posição',
+                        'Posição - Renda Fixa': 'renda_fixa_coe',
+                        'Posição - Renda Variável': 'renda_variavel',
+                        'Saldo em CC (D 0)': 'saldo_cc',
+                        'NNM Detalhado': 'nnm',
+                        'Base BTG':'base_btg',
+                        'Informações':'informações',
+                        'Detalhado':'rentabilidade',

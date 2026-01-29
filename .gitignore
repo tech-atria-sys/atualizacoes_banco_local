@@ -1,0 +1,27 @@
+.venv/
+venv/
+__pycache__/
+.env
+.vscode/
+*.log
+*.sql
+ngrok_recovery_codes.txt
+
+# IGNORAR EM QUALQUER PASTA (IMPORTANTE)
+**/*.zip
+**/*.rar
+**/*.pdf
+**/*.csv
+**/*.xlsx
+**/*.xls
+**/*.pbix
+**/*.bak
+**/*.exe
+**/*.dll
+**/*.docx
+**/*.doc
+
+# IGNORAR PASTAS INTEIRAS
+**/relatorios/
+**/backups_atria/
+**/temp/
